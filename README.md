@@ -1,43 +1,50 @@
-# BPB VPN
+# BPB VPN Desktop
 
-**One app. Multiple ways to stay connected.**
+**A flexible Windows VPN client built on the BPB project.**
 
-BPB brings highly customizable Cloudflare CDN connections, Psiphon, Tor and Serverless solutions together in one approachable VPN client powered by [Xray-core](https://xtls.github.io). Start with the guided setup, then choose a ready-to-use connection or fine-tune the details for your network.
+BPB VPN Desktop brings BPB's configurable proxy and tunnelling capabilities to Windows, with a native desktop interface, Windows installer and portable distribution. It combines multiple connection engines and routing options in one application, while keeping advanced network settings accessible when you need them.
 
-> Built for networks where ordinary connections may be restricted. Results depend on your network and configuration; no method can guarantee access everywhere.
+> BPB is a networking tool, not a guarantee of access or anonymity. Connection quality and availability depend on your network, server, configuration and local restrictions.
 
-## What makes BPB different?
+## Features
 
-- **Your own Cloudflare setup:** Deploy private Workers and Pages from the app using your own Cloudflare account. The guided wizard walks you through it.
-- **More than one route:** Choose VLESS, WARP, MASQUE or Serverless connections. Psiphon and Tor are also optimized, built in and can be combined with Serverless methods to bypass regular restrictions.
-- **Tunable for your network:** Adjust SNI and connection IPs, TLS fingerprints, TCP fragmentation, UDP obfuscation, DNS, routing and more DPI bypassing tricks without being locked into one preset.
-- **Find responsive endpoints:** Built-in **REAL** scanners help discover Cloudflare IPs and WARP/MASQUE endpoints. Results depend on your current network and selected settings.
-- **Useful everyday controls:** Per-app proxying, proxy-chain imports, connection logs, configuration sharing and customizable theme.
+- **Multiple connection methods:** Work with supported VLESS, WARP and MASQUE configurations, alongside integrated Aether, Psiphon and Tor connection options.
+- **SSH connections:** Use SSH as a separate connection method, including the desktop-to-SSH-to-exit-node routing flow.
+- **Exit Node and proxy chaining:** Route traffic through an exit node or chain supported proxy configurations, with controls available from the connection interface and Global settings.
+- **Advanced global controls:** Configure chain proxy, Local DNS, Anti-Sanctions, Fake DNS, IPv6 and other network options from dedicated settings sections.
+- **Aether integration:** Access Aether connection modes and their supported routing combinations from the desktop app.
+- **Browser integration:** Companion extensions for Firefox and Microsoft Edge make it possible to use browser-level proxy controls alongside the desktop client.
+- **Windows-native experience:** Installable and portable builds, a Windows system-tray presence, and a desktop interface designed for everyday use.
+- **IP and network information:** View public IP information and Cloudflare IP details from within the application.
 
-## Get started
+Availability of individual protocols and options can vary with the selected connection type and the bundled core version.
 
-1. Download the latest Android APK from [Releases](https://github.com/bia-pain-bache/BPB-VPN/releases/latest).
-2. Open BPB and follow the setup wizard. BPB guides deployment in the app.
-3. Choose a connection and connect. Psiphon, Tor and Serverless are available without adding a Cloudflare account.
+## Download
 
-Use the **universal APK** if you are unsure which download to choose. Release notes and checksums are included with each release.
+Get the latest Windows release from the [Releases page](https://github.com/NottDevv/BPB-VPN-Desktop/releases/latest).
 
-## Customize when you need to
+Each release may provide:
 
-Most users can begin with the defaults. If a connection needs adjustment, BPB brings the relevant controls together:
+- **Setup** — the standard Windows installer.
+- **Portable** — the application bundle, which can be run without going through the installer.
 
-- Choose or scan clean IPs, endpoints, Tor bridges, and tune SNI and TLS fingerprint settings.
-- Enable TCP fragmentation or UDP obfuscation where they help your network.
-- Configure traffic splitting (routing), DNS, IPv4/IPv6, or proxy only selected apps.
-- Import supported v2ray links or WireGuard configurations as chain proxies.
-- Review live connection logs and export or share settings with others.
+Choose the installer for a conventional Windows installation. Choose Portable when you prefer to manage the application folder yourself.
 
-These are options to experiment with no guarantee. The best settings vary by ISP, location and network conditions.
+## Updating
 
-## Platform
+When a new version is available, use the application's update feature to check the published release and download the update. Review the release notes for a concise summary of changes in each version.
 
-The VPN is only supported on **Android** for now. Other platform builds will be released one by one.
+## Browser extensions
 
-## Open source
+The desktop project includes companion browser extensions for supported browsers. Visit the [development repository](https://github.com/NottDevv/BPB-VPN-Desktop-Dev) for the extension source and installation information.
 
-BPB is licensed under the [GNU GPL v3.0](LICENSE). See [release notes](RELEASE_NOTES.md) for recent changes and [Issues](https://github.com/bia-pain-bache/BPB-VPN/issues) to report technical bugs or misconfigurations.
+## Project repositories
+
+- **Releases and downloads:** [NottDevv/BPB-VPN-Desktop](https://github.com/NottDevv/BPB-VPN-Desktop)
+- **Source code and development:** [NottDevv/BPB-VPN-Desktop-Dev](https://github.com/NottDevv/BPB-VPN-Desktop-Dev)
+
+## Credits and license
+
+BPB VPN Desktop is based on the BPB project and its open-source ecosystem. Please refer to the source repository's [LICENSE](https://github.com/NottDevv/BPB-VPN-Desktop-Dev/blob/desktop/bootstrap/LICENSE) and the licenses/notices shipped with bundled third-party components for the applicable terms.
+
+For bug reports, feature requests and source-level discussion, use the [development repository](https://github.com/NottDevv/BPB-VPN-Desktop-Dev/issues).
