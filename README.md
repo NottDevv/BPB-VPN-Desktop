@@ -10,19 +10,24 @@ BPB VPN Desktop brings BPB's proxy and tunnelling capabilities to Windows throug
 
 - VLESS / Cloudflare Workers connections.
 - WARP (WireGuard) and MASQUE support.
-- Aether core integration with separate BPB and Aether core selection.
+- BPB and Aether core integration with separate core selection.
 - Alternative WARP/MASQUE registration methods and endpoint discovery.
+- Cloudflare and Aether endpoint scanners.
 - SSH, Tor, Psiphon and Serverless connection options.
+- Tor bridge retrieval, custom bridge management and bridge testing.
 - Exit-node selection, proxy chaining and region selection.
-- Tor bridge management.
-- Advanced network settings: Local DNS, Anti-Sanctions, Fake DNS and IPv6.
-- Browser security and privacy features, including WebRTC leak protection.
+- Advanced DNS options: Local DNS, Anti-Sanctions DNS and Fake DNS.
+- IPv6, MTU and LAN proxy sharing controls.
+- Routing presets for Iran, China and Russia, plus custom bypass, sanction and block rules.
+- In-app GeoIP and GeoSite asset updates.
+- Browser security features, including WebRTC leak protection and browser privacy guidance.
 - Companion browser extensions for Firefox and Microsoft Edge.
-- Live traffic information and Worker Request usage statistics.
+- Live upload/download traffic and Worker Request usage statistics.
 - Public IP, Cloudflare IP, ping and connection-duration information.
-- Windows system-tray integration.
-- In-app release update checking.
-- Interface themes and custom font support.
+- Windows system-tray integration and in-app release update checking.
+- Light/dark/system themes, accent colors and adjustable font size.
+- Built-in fonts and support for custom TTF/OTF fonts.
+- Settings import, export and sharing.
 
 Availability of individual protocols and options can vary with the selected connection type and bundled core version.
 
