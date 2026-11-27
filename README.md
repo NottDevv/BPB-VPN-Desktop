@@ -31,6 +31,16 @@ BPB VPN Desktop brings BPB's proxy and tunnelling capabilities to Windows throug
 
 Availability of individual protocols and options can vary with the selected connection type and bundled core version.
 
+## Geo routing by country
+
+Choose one country in **Settings → Routing → Bypass rules**: Iran (the default), China or Russia. The app keeps one active `geoip.dat` / `geosite.dat` pair in its assets and automatically selects the appropriate download source for the country you chose when you use **Update Geo**.
+
+- **Iran:** [Chocolate4U/Iran-v2ray-rules](https://github.com/Chocolate4U/Iran-v2ray-rules) — GeoIP and GeoSite.
+- **China:** [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) — GeoIP and GeoSite.
+- **Russia:** GeoIP from [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) (for the `geoip:ru` country tag), and GeoSite from [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat) (for Russia-specific domain categories).
+
+**Important:** After changing the selected country, you must run **Update Geo** once before relying on country-based routing. Until the matching files have been downloaded and verified, Geo-based routing rules are held back so the previous country's files are not used by mistake. Your custom domain/IP rules and the independent BitTorrent switch remain separate.
+
 ## Download
 
 Get the latest Windows release from the [Releases page](https://github.com/NottDevv/BPB-VPN-Desktop/releases/latest).
