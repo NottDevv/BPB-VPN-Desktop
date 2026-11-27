@@ -48,17 +48,8 @@ Get the latest Windows release from the [Releases page](https://github.com/NottD
 - **Setup** — the standard Windows installer.
 - **Portable** — the application bundle, which can run without a conventional installation.
 
-## Browser extensions
-
-Companion extensions are available for supported browsers. Visit the [development repository](https://github.com/NottDevv/BPB-VPN-Desktop-Dev) for their source and installation information.
-
-## Project repositories
-
-- **Releases and downloads:** [NottDevv/BPB-VPN-Desktop](https://github.com/NottDevv/BPB-VPN-Desktop)
-- **Source code and development:** [NottDevv/BPB-VPN-Desktop-Dev](https://github.com/NottDevv/BPB-VPN-Desktop-Dev)
-
 ## Credits and license
 
-BPB VPN Desktop is based on the BPB project and its open-source ecosystem. Please refer to the source repository's [LICENSE](https://github.com/NottDevv/BPB-VPN-Desktop-Dev/blob/desktop/bootstrap/LICENSE) and the licenses/notices shipped with bundled third-party components for the applicable terms.
+BPB VPN Desktop is based on the BPB project and its open-source ecosystem. Please refer to the licenses and notices shipped with the application for the applicable terms.
 
-For bug reports, feature requests and source-level discussion, use the [development repository](https://github.com/NottDevv/BPB-VPN-Desktop-Dev/issues).
+For bug reports and feature requests, use the [Releases repository issue tracker](https://github.com/NottDevv/BPB-VPN-Desktop/issues).
