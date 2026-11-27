@@ -33,7 +33,7 @@ Availability of individual protocols and options can vary with the selected conn
 
 ## Geo routing by country
 
-Choose one country in **Settings → Routing → Bypass rules**: Iran (the default), China or Russia. The app keeps one active `geoip.dat` / `geosite.dat` pair in its assets and automatically selects the appropriate download source for the country you chose when you use **Update Geo**.
+Choose one country in **Settings → Routing → Bypass rules**: Iran (the default), China or Russia. The initial Windows package includes Iran's `geoip.dat` and `geosite.dat` files in its `assets` folder. The app keeps one active pair and automatically selects the appropriate download source for the country you chose when you use **Update Geo**.
 
 - **Iran:** [Chocolate4U/Iran-v2ray-rules](https://github.com/Chocolate4U/Iran-v2ray-rules) — GeoIP and GeoSite.
 - **China:** [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) — GeoIP and GeoSite.
